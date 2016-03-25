@@ -1,0 +1,78 @@
+package com.jspiders.myapp;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.text.Editable;
+import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class MainActivity extends Activity {
+
+   EditText inputEditText;
+   Button outputButton;
+   TextView outputTextView;
+	
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        inputEditText = (EditText)findViewById(R.id.editTextinput);
+        outputButton = (Button) findViewById(R.id.buttonoutput);
+        outputTextView = (TextView) findViewById(R.id.textViewoutput);  
+    }
+
+    
+   public void displaymsg(View v)
+   {
+	   String s1 = "jspiders";
+	  /*Editable e1 = inputEditText.getText();
+	  String data = e1.toString();*/
+	   
+	  String data = inputEditText.getText().toString();
+	  
+	  if(data.length()==0)
+	  {
+		  outputTextView.setText("Invalid input");
+	  }
+	  else
+	  {
+		 if(data.equals(s1))
+		 {
+			 outputTextView.setText(data+" "+"match found");
+		 }
+		 
+		 else
+		 {
+			 outputTextView.setText(data+" "+"match not found");
+		 }
+		  
+		  
+
+	  }
+	  
+   }
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+}
