@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;listView1&apos; in &apos;com.example.j.R.id&apos; to &apos;listViewnames&apos;&#x0D;&#x0A;- Original project: &apos;j&apos;&#x0D;&#x0A;- Original element: &apos;com.example.j.R.id.listView1&apos;&#x0D;&#x0A;- Renamed element: &apos;com.example.j.R.id.listViewnames&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="true" description="Rename field &apos;listView1&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/gen&lt;com.example.j{R.java[R[id^listView1" name="listViewnames" references="true" setter="false" stamp="1459150789002" textual="false" version="1.0"/>
+</session>

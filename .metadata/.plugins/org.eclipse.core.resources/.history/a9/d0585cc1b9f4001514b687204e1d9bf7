@@ -1,0 +1,22 @@
+package com.example.j;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.ListView;
+
+public class MainActivity extends Activity {
+
+    ListView nameListView;
+    String[] names = {"Dhoni","Kholi","Yuvraj","Pandya","Bhumra","Nehra","Rhoit","Dhawan"};
+	
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        nameListView = (ListView) findViewById(R.id.listViewnames);
+    }
+
+
+    
+}

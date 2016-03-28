@@ -11,9 +11,18 @@
 <fullyQualifiedTypeName name="android.widget.CheckBox"/>
 <fullyQualifiedTypeName name="android.widget.CompoundButton.OnCheckedChangeListener"/>
 <fullyQualifiedTypeName name="android.util.Log"/>
-<fullyQualifiedTypeName name="android.widget.Toast"/>
 <fullyQualifiedTypeName name="android.widget.RadioGroup"/>
 <fullyQualifiedTypeName name="com.example.checkbox.MainActivity"/>
 <fullyQualifiedTypeName name="android.widget.RadioGroup.OnCheckedChangeListener"/>
 <fullyQualifiedTypeName name="com.example.checkbox.R.id"/>
+<fullyQualifiedTypeName name="android.widget.ListView"/>
+<fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.layout"/>
+<fullyQualifiedTypeName name="android.widget.Spinner"/>
+<fullyQualifiedTypeName name="android.widget.GridView"/>
+<fullyQualifiedTypeName name="android.widget.AdapterView.OnItemClickListener"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="android.widget.AdapterView.OnItemSelectedListener"/>
+<fullyQualifiedTypeName name="com.example.j.MainActivity"/>
 </qualifiedTypeNameHistroy>
