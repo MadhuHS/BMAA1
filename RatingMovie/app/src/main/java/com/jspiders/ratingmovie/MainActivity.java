@@ -47,8 +47,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+
             }
         });
 
@@ -140,20 +139,15 @@ public class MainActivity extends AppCompatActivity
                 MoviesList moviesList = gson.fromJson(jsonstring,MoviesList.class);
                 List<MoviesList.Movies> movies = moviesList.getMovies();
 
-               moviesname = new String [movies.size()];
-                for(int i =0 ;i<movies.size();i++)
-                {
-                   Log.d ("Debug",movies.get(i).getTitle()+" RATINGS"+movies.get(i).getRatings().getAudience_score());
-                    moviesname[i] = movies.get(i).getTitle();
-                }
-
 
                 /*ArrayAdapter<String> adapter =
                         new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,moviesname);
                 movielistView.setAdapter(adapter);*/
 
-                CustomAdapter adapter = new CustomAdapter(MainActivity.this,moviesname);
+                CustomAdapter adapter = new CustomAdapter(MainActivity.this,movies);
                 movielistView.setAdapter(adapter);
+
+
             }
 
             @Override
